@@ -1,0 +1,47 @@
+header{
+    height: 150px;
+    background-color: $lightgreen;  
+    .header_wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 75px;
+        .img_wrapper{
+            margin-left: 40px;
+            display: flex;
+        }
+        img{
+           
+            width: 160px;
+            height: 40px;
+        }
+        .header_list{
+            
+            
+            display: flex;
+            .header_item{
+                margin-left: 40px ;
+                a{
+                    color: white;
+                }
+            }
+        }
+        button{
+            width: 153px;
+            height: 48px;
+            border-radius: 24px;
+            border: 2px solid #FFF;
+            background-color: $lightgreen;
+            margin-right: 40px;
+           
+            a{
+                color: #FFF;
+            }
+        }
+    }
+}
+@media (max-width:768px){
+    .header_wrapper{
+        justify-content: space-around;
+    }
+}
